@@ -1,6 +1,6 @@
 import { h, resolveComponent } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/Home.vue';
+import Home from '../views/HomeView.vue';
 
 const routes = [
   {
@@ -11,7 +11,7 @@ const routes = [
   {
     path: '/login',
     name: 'login',
-    component: () => import('../views/Login.vue'),
+    component: () => import('../views/LoginView.vue'),
   },
   {
     path: '/404',

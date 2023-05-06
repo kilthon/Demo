@@ -32,11 +32,11 @@
 </template>
 
 <script setup>
-import Header from '../components/Header.vue';
-import Menu from '../components/Menu.vue';
-import Admin from '../components/Admin.vue';
-import User1 from '../components/User1.vue';
-import User2 from '../components/User2.vue';
+import Header from '../components/HeaderCmp.vue';
+import Menu from '../components/MenuCmp.vue';
+import Admin from '../components/UserAdmin.vue';
+import User1 from '../components/UserOne.vue';
+import User2 from '../components/UserTwo.vue';
 import { useStore } from 'vuex';
 import { reactive, onMounted, ref, markRaw } from 'vue';
 import { toggleTheme } from '@zougt/vite-plugin-theme-preprocessor/dist/browser-utils';

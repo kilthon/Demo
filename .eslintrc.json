@@ -1,0 +1,17 @@
+{
+  //   extends: ['airbnb-base', 'prettier', 'eslint-config-prettier'],
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-essential",
+    "plugin:prettier/recommended"
+  ],
+  "globals": {
+    "window": true,
+    "sessionStorage": true
+  },
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2021
+  }
+}
